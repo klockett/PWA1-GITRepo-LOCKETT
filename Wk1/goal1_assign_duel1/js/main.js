@@ -8,8 +8,12 @@ Assignment:Goal1:Assignment: Duel 1
 (function(){
 
 
+//Test to see if Js was connecting
+
+
 console.log("FIGHT!!!");
 
+//  Declared variables and Assigned
 //Player name
 var playerOneName = "Spiderman";
 var playerTwoName = "Batman";
@@ -22,14 +26,14 @@ var player2Damage = 20;
 var playerOneHealth = 100;
 var playerTwoHealth = 100;
 
-var round =1;
+var round =0;
 
 function fight(){
    console.log('in the fight function');
 
 alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoHealth);
-
-    for (var i=0; i < 10; i++){
+//for loop added
+    for (var i = 0; i < 10; i++){
 
         //random formula is -Math.floor(Math.random() * (max - min) + min);
 
@@ -45,15 +49,36 @@ alert(playerOneName+":"+playerOneHealth+" *START* "+playerTwoName+":"+playerTwoH
         playerOneHealth-=f1;
         playerTwoHealth-=f2;
 
-        console.log(playerOneHealth);
-        console.log(playerTwoHealth);
+        console.log(playerOneName+":"+ playerOneHealth+""+ playerTwoName+":"+playerTwoHealth);
 
+      var results = winnerCheck()
+      console.log(results);
 
+        if (results === "no winner"){
+            round++;
+            alert(playerOneName+":"+playerOneHealth+" *ROUND "+round+" OVER"+"* "+playerTwoName+":"+playerTwoHealth);
+        }else{
+            alert(results);
+            break;
+        };
     };
 };
 
 function winnerCheck(){
-    //code  will go here
+    console.log("in winnerCheck FN")
+    var result = "no winner";
+
+    if(playerOneHealth<1 && playerTwoHealth<1){
+        result = "You Both Die";
+    }else if(playerOneHealth<1) {
+        result = playerTwoName + "WINS!!!"
+    }else if(playerTwoHealth<1){
+        result = playerOneName+" WINS!!!"
+
+
+    };
+
+    return result;
 };
 
    /**** The program gets stated below ****/
