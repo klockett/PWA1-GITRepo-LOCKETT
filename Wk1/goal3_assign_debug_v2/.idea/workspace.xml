@@ -37,10 +37,10 @@
       <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7884616" vertical-offset="0" max-vertical-offset="1875">
-              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.115384616" vertical-offset="450" max-vertical-offset="1875">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
               <folding>
-                <marker date="1425834374000" expanded="true" signature="2215:2230" placeholder="..." />
+                <marker date="1425836175000" expanded="true" signature="2285:2300" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -260,7 +260,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425834374000" expanded="true" signature="2215:2230" placeholder="..." />
+            <marker date="1425836175000" expanded="true" signature="2285:2300" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -286,7 +286,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425834374000" expanded="true" signature="2215:2230" placeholder="..." />
+            <marker date="1425836175000" expanded="true" signature="2285:2300" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -317,10 +317,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7884616" vertical-offset="0" max-vertical-offset="1875">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.115384616" vertical-offset="450" max-vertical-offset="1875">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
           <folding>
-            <marker date="1425834374000" expanded="true" signature="2215:2230" placeholder="..." />
+            <marker date="1425836175000" expanded="true" signature="2285:2300" placeholder="..." />
           </folding>
         </state>
       </provider>

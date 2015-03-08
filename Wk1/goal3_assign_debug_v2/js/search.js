@@ -8,7 +8,7 @@
 	;
 	
 	// Validates search query
-	var validqte == function(query){//incorrect spelling
+	var validqte == function(query){//incorrect spelling also the relational operator is incorrect
 		
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
@@ -34,7 +34,7 @@
 	var search = function(query)
 		
 		// split the user's search query string into an array
-		var queryArray = query.join(" ");
+		var queryArray = query.join(" ");//array is not set correctly
 		
 		// array to store matched results from database.js
 		var results = [];
@@ -91,7 +91,7 @@
 		
 		// loop through all the results search() function
 		for(var i=0, j=results.length; i<j; i++){
-		//no break was added 
+		//no break was added
 			// title of video ends with pipe
 			// pull the title's string using index numbers
 			titleEnd = results[i].indexOf('|');
