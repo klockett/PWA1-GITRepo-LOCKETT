@@ -4,7 +4,7 @@
 	// Variable initialization (DO NOT FIX ANY OF THE BELOW VAR's)
 	var resultsDIV = document.getElementById("results"),
 		searchInput = document.forms[0].search,// their is no variable
-		currentSearch = ''
+		currentSearch = ''//incomplete variable
 	;
 	
 	// Validates search query
@@ -45,7 +45,7 @@
 			// each db[i] is a single video item, each title ends with a pipe "|"
 			// save a lowercase variable of the video title
 			var dbTitleEnd = db[i].indexOf('|');
-			var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);
+			var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);// variable has no camelCasing
 			
 			// loop through the user's search query words
 			// save a lowercase variable of the search keyword
