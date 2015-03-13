@@ -43,8 +43,8 @@ alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+"
         //random formula is -Math.floor(Math.random() * (max - min) + min);
 
         //minDamage number defined
-        var minDamage1 = playerOne[1] * .5;
-        var minDamage2 = playerTwo[1] * .5;
+        var minDamage1 = playerOne[1] * [.5];
+        var minDamage2 = playerTwo[1] * [.5];
         var f1 = Math.floor(Math.random()*(playerOne[1]-minDamage1)+minDamage1)
         var f2 = Math.floor(Math.random()*(playerOne[1]-minDamage2)+minDamage2)
 
@@ -60,15 +60,15 @@ alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+"
         //out for the players health
        // console.log(playerOneName+":"+ playerOneHealth+""+ playerTwoName+":"+playerTwoHealth);
         console.log (playerOne[0]+":" + playerOne[2]+":" + playerTwo[0]+":" + playerTwo[2]);                            //arrays was to added to console.log
-      var results = winnerCheck()
-      console.log(results);
+      var results = [winnerCheck()];
+      console.log(results[0]);
 
         //conditional added
-        if (results === "no winner"){
+        if (results[0] === "no winner"){
             round[0]++;
             alert(playerOne[0]+":"+playerOne[1]+" *ROUND "+round[0]+" OVER"+"* "+playerTwo[0]+":"+playerTwo[1]);
         }else{
-            alert(results);
+            alert(results[0]);
             break; //the break is used to break out of the for loop
         };
     };
@@ -76,23 +76,23 @@ alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+"
      // this function will check to see the results after every round and see who is the winner
 function winnerCheck(){
     console.log("in winnerCheck FN")
-    var result = "no winner";
+    var result = ["no winner"];
 
     // if player 1 health is less than 1 and player two health is less then 1 they both die
     if(playerOne[2]<1 && playerTwo[2]<1){
-        result = "You Both Die";
+        result[0] = "You Both Die";
         //if player 1 is less than 1 then player 2 wins
     }else if(playerOne[2]<1) {
         //if player 2 is less than 1 then player 1 wins
-        result = playerTwo[0] + "WINS!!!"
+        result[0] = playerTwo[0] + "WINS!!!"
     }else if(playerTwo[2]<1){
-        result = playerOne[0]+" WINS!!!"
+        result[0] = playerOne[0]+" WINS!!!"
 
 
     };
 
     //return will return info back to the winnerCheck and stored in var results = winnerCheck
-    return result;
+    return result[0];
 };
 
    /**** The program gets stated below ****/
