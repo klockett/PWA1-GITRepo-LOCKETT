@@ -15,7 +15,7 @@ console.log("FIGHT!!!");
 //  Declared variables and Assigned
 //Player name
 
- var playerOne = ['Spiderman', 20, 100] ;
+ var playerOne = ['Spiderman', 20, 100] ;                                                                                // player 1 & 2 arrays
  var playerTwo = ['Batman', 20, 100];
 //var playerOneName = "Spiderman";
 //var playerTwoName = "Batman";
@@ -29,14 +29,14 @@ console.log("FIGHT!!!");
 //var playerTwoHealth = 100;
 // this var will keep track of what round we will be
 //var round =0;
-var round =[0] ;
+var round =[0] ;                                                                                                        //array created for round variable
 //function
  /* this function contains the code that loops through rounds and
     and reduces the player's health accordingly'*/
 function fight(){
    console.log('in the fight function');
 //alert will display unfo
-alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+":"+'playerTwoHealth'+playerTwo[2]);
+alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+":"+'playerTwoHealth'+playerTwo[2]);     //arrays was placed into alert to call indexes of array
 //for loop added and will loop at least 10 times
     for (var i = 0; i < 10; i++){
 
@@ -59,7 +59,7 @@ alert(playerOne[0]+":"+'playerOneHealth'+playerOne[2]+" *START* "+playerTwo[0]+"
 
         //out for the players health
        // console.log(playerOneName+":"+ playerOneHealth+""+ playerTwoName+":"+playerTwoHealth);
-        console.log (playerOne[0]+":" + playerOne[2]+":" + playerTwo[0]+":" + playerTwo[2]);
+        console.log (playerOne[0]+":" + playerOne[2]+":" + playerTwo[0]+":" + playerTwo[2]);                            //arrays was to added to console.log
       var results = winnerCheck()
       console.log(results);
 
