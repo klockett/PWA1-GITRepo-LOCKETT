@@ -53,18 +53,20 @@
       //console.log(numbers);
     //--------------------------------------------------------
     console.log("2. concat first and last name");
-
+   //var nameFN =('JAMES');
     var fName = 'james';
     //var lName = 'Bond';
 
-    var nameFN = function (var1){
+    var nameFN = function 'james'{
 
         var firstName = var1;
         var lastName = 'Bond';
-        var name = firstName +  '' + lastName;
-        console.log('first & last name:=', name);
-        return name;
+        var name = firstName+'' +lastName;
+        //console.log('first & last name:=', name);
+        //return (name);
     };
+    console.log('first & last name:=',name);
+
     nameFN();
      //var fullName = nameFN(fname);
     //console.log('returned full name:=', fullName);
