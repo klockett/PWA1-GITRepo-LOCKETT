@@ -64,6 +64,8 @@ console.log("FIGHT!!!");
 //var playerTwoHealth = 100;
 // this var will keep track of what round we will be
 //var round =0;
+
+// Round assignment
 var round = 1;
 
 round_txt.innerHTML = "Click FIGHT BUTTON to Start!";
@@ -165,7 +167,7 @@ function winnerCheck(){
     // if player 1 health is less than 1 and player two health is less then 1 they both die
     if (fighters[0].health < 1 && fighters [1].health < 1)
     {
-        result = "You Both Die";
+        result = "You Both Die - Game Over!";
         //if player 1 is less than 1 then player 2 wins
     }else if(fighters[0].health < 1){
         //if player 2 is less than 1 then player 1 wins
