@@ -19,6 +19,8 @@ console.log("FIGHT!!!");
 
 
     console.log();
+
+    //click event
     button.addEventListener("click", fight, false);
 
 
