@@ -145,7 +145,7 @@ function fight(){
             fighter2_txt.innerHTML = "";
 
 
-
+            //disabled the button
             button.removeEventListener("click", fight, false);
 
             document.querySelector('.buttonblue').innerHTML = 'Done!!';
