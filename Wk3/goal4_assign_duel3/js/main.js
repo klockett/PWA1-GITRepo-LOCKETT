@@ -26,6 +26,8 @@ console.log("FIGHT!!!");
 
 //  Declared variables and Assigned
 //Player name
+
+    //fighter objects/ARRAY/INDEX METHOD
     var fighters = [
 
         {
