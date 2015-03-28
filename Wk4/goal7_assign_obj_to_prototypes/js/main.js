@@ -14,7 +14,14 @@
     //variables addded
 
     var names = ["Ken", "Brain", "Eric", "Sherry", "Glen"];
+    var numberOfPeople = 3;
 
+    // for loop 3 person object
+    for (var i = 0; i < numberOfPeople ; i++){
+
+
+
+    }
 
 
 
