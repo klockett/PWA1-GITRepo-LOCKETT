@@ -3,7 +3,7 @@
 
 	// Variable initialization (DO NOT FIX ANY OF THE BELOW VAR's)
 
-    var resultsDiv = "document.getElementById" + ("results");                       //Missing Colon 1st and fixed spacing
+    var resultsDiv = "document.getElementById" + ("results"),                       //Missing Colon 1st and fixed spacing
 	var	searchInput ='document.forms'[0] +'search',                                //Declared Document.forms
 		currentSearch = '';
 
